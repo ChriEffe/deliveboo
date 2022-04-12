@@ -12,7 +12,7 @@
 
 <body>
     <div class="container-chechkout mt-5 bg-success">
-        <h1 class="text-success">Ciao {{ $data['name'] }}, il tuo è ordine confermato e arriverà a breve!</h1>
+        <h1 class="text-success">Ciao {{ $data['name'] }}, il tuo ordine è confermato e arriverà a breve!</h1>
         <h3 class="fs-4">
             Grazie per aver scelto
             <span class="fw-bold text-uppercase text-success bg-warning rounded-pill p-1">Deli<span

@@ -25,6 +25,7 @@ class OrderController extends Controller
             ->join('dishes', 'dish_order.dish_id', '=', 'dishes.id')
             ->join('users', 'dishes.user_id', '=', 'users.id')
             ->where('users.id', Auth::user()->id)
+            ->orderBy('orders.date')
             ->get();
         return view('admin.orders.index', [
             'orders' => $orders
