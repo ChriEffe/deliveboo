@@ -21,7 +21,7 @@ return [
     ],
     [
         'name' => 'Involtini di petto di pollo con speck e provola',
-        'description' => 'Gli involtini di petto di pollo con speck e provola sono un gustosissimo secondo piatto a base di pollo.',
+        'description' => 'Gli involtini di petto di pollo con speck e provola sono un gustosissimo Secondo piatto a base di pollo.',
         'ingredients' => '300 gr di petto di pollo tagliato in 4 fettine, 100 gr di speck, 60 gr di provola silana o scamorza bianca, 200 ml di vino bianco secco, 1 cucchiaio di olio extravergine di olivamirto (qualche fogliolina) sale e pepe ',
         'price' => 18.0,
         'availability' => true,
@@ -75,7 +75,7 @@ return [
     [
         'name' => 'Pollo al curry',
         'description' =>
-        'Il pollo al curry è un piatto di origine indiana che si prepara in pochissimo tempo ed è adatto a tutta la famiglia. Il gusto e il livello di speziatura di questo piatto varieranno a seconda del tipo di curry in polvere che userete, quindi aggiustate il condimento secondo i vostri gusti assaggiando e regolando di conseguenza le dosi.',
+        'Il pollo al curry è un piatto di origine indiana che si prepara in pochissimo tempo ed è adatto a tutta la famiglia. Il gusto e il livello di speziatura di questo piatto varieranno a seconda del tipo di curry in polvere che userete, quindi aggiustate il condimento Secondo i vostri gusti assaggiando e regolando di conseguenza le dosi.',
         'ingredients' => '',
         'price' => 9.5,
         'availability' => true,
@@ -110,7 +110,7 @@ return [
     ],
     [
         'name' => 'Involtini di petto di pollo con speck e provola',
-        'description' => 'Gli involtini di petto di pollo con speck e provola sono un gustosissimo secondo piatto a base di pollo.',
+        'description' => 'Gli involtini di petto di pollo con speck e provola sono un gustosissimo Secondo piatto a base di pollo.',
         'ingredients' => '300 gr di petto di pollo tagliato in 4 fettine, 100 gr di speck, 60 gr di provola silana o scamorza bianca, 200 ml di vino bianco secco, 1 cucchiaio di olio extravergine di olivamirto (qualche fogliolina) sale e pepe ',
         'price' => 13.4,
         'availability' => true,
@@ -164,7 +164,7 @@ return [
     [
         'name' => 'Pollo al curry',
         'description' =>
-        'Il pollo al curry è un piatto di origine indiana che si prepara in pochissimo tempo ed è adatto a tutta la famiglia. Il gusto e il livello di speziatura di questo piatto varieranno a seconda del tipo di curry in polvere che userete, quindi aggiustate il condimento secondo i vostri gusti assaggiando e regolando di conseguenza le dosi.',
+        'Il pollo al curry è un piatto di origine indiana che si prepara in pochissimo tempo ed è adatto a tutta la famiglia. Il gusto e il livello di speziatura di questo piatto varieranno a seconda del tipo di curry in polvere che userete, quindi aggiustate il condimento Secondo i vostri gusti assaggiando e regolando di conseguenza le dosi.',
         'ingredients' => '',
         'price' => 12.5,
         'availability' => true,
@@ -861,11 +861,11 @@ return [
     ],
     [
         'name' => 'Lassi',
-        'description' => 'Bevanda a base di yogurt è disponibile in una vasta gamma di gusti, dall’acqua di rose al mango allo zafferano',
+        'description' => 'Bibita a base di yogurt è disponibile in una vasta gamma di gusti, dall’acqua di rose al mango allo zafferano',
         'ingredients' => '',
         'price' => 5.0,
         'availability' => true,
-        'course' => 'Bevanda',
+        'course' => 'Bibita',
     ],
     [
         'name' => 'Samosa',
@@ -901,11 +901,11 @@ return [
     ],
     [
         'name' => 'Lassi',
-        'description' => 'Bevanda a base di yogurt è disponibile in una vasta gamma di gusti, dall’acqua di rose al mango allo zafferano',
+        'description' => 'Bibita a base di yogurt è disponibile in una vasta gamma di gusti, dall’acqua di rose al mango allo zafferano',
         'ingredients' => '',
         'price' => 5.0,
         'availability' => true,
-        'course' => 'Bevanda',
+        'course' => 'Bibita',
     ],
     [
         'name' => 'Panino Kebab',
@@ -1034,7 +1034,7 @@ return [
         'ingredients' => '',
         'price' => 4.74,
         'availability' => true,
-        'course' => 'Primi',
+        'course' => 'Primo',
     ],
     [
         'name' => 'Bacon King 3.0 Rodeo',
@@ -1043,7 +1043,7 @@ return [
         'ingredients' => '',
         'price' => 12.35,
         'availability' => true,
-        'course' => 'Primi',
+        'course' => 'Primo',
     ],
     [
         'name' => 'King Burger Napulè',
@@ -1051,7 +1051,7 @@ return [
         'ingredients' => 'Salsiccia, Friarelli, Mozzarella di Bufala, Provola Affumicata',
         'price' => 7.50,
         'availability' => true,
-        'course' => 'Primi',
+        'course' => 'Primo',
     ],
     [
         'name' => 'Chicken Burger',
@@ -1059,7 +1059,7 @@ return [
         'ingredients' => '',
         'price' => 9.50,
         'availability' => true,
-        'course' => 'Primi',
+        'course' => 'Primo',
     ],
     [
         'name' => 'Spaghetti alla Carbonara',
@@ -1068,7 +1068,7 @@ return [
         'ingredients' => 'spaghetti, guanciale, uova, pecorino, pepe',
         'price' => 10.0,
         'availability' => true,
-        'course' => 'Primi',
+        'course' => 'Primo',
     ],
     [
         'name' => 'Spaghetti Cacio e Pepe',
@@ -1077,16 +1077,16 @@ return [
         'ingredients' => 'spaghetti, pepe, pecorino',
         'price' => 10.0,
         'availability' => true,
-        'course' => 'Primi',
+        'course' => 'Primo',
     ],
     [
         'name' => 'Spaghetti allo Scoglio',
         'description' =>
-        'Gli spaghetti allo scoglio sono un primo piatto di mare profumato e gustoso che racchiude i veri sapori e aromi del mediterraneo.',
+        'Gli spaghetti allo scoglio sono un Primo piatto di mare profumato e gustoso che racchiude i veri sapori e aromi del mediterraneo.',
         'ingredients' => 'Spaghetti, Cozze, Vongole',
         'price' => 15.0,
         'availability' => true,
-        'course' => 'Primi',
+        'course' => 'Primo',
     ],
     [
         'name' => 'Ravioli Ricotta e Spinaci',
@@ -1095,7 +1095,7 @@ return [
         'ingredients' => 'Uova, Semola, Spinaci, Ricotta Vaccina, Parmigiano Reggiano DOP, Noce moscata, Pepe nero',
         'price' => 12.0,
         'availability' => true,
-        'course' => 'Primi',
+        'course' => 'Primo',
     ],
     [
         'name' => 'Margherita',
@@ -1139,7 +1139,7 @@ return [
         'ingredients' => 'riso, salmone affumicato, ravanelli, mango, salsa di soia, edamame, avocado, rucola, semi di sesamo',
         'price' => 10.00,
         'availability' => true,
-        'course' => 'Primi',
+        'course' => 'Primo',
     ],
     [
         'name' => 'Poke Tonno',
@@ -1147,7 +1147,7 @@ return [
         'ingredients' => 'Ciotola di riso con tonno, insalata di alghe, edamame e avocado.',
         'price' => 11.00,
         'availability' => true,
-        'course' => 'Primi',
+        'course' => 'Primo',
     ],
     [
         'name' => 'Octopus Poke',
@@ -1155,7 +1155,7 @@ return [
         'ingredients' => '',
         'price' => 10.50,
         'availability' => true,
-        'course' => 'Primi',
+        'course' => 'Primo',
     ],
     [
         'name' => 'Poke Tonno',
@@ -1163,7 +1163,7 @@ return [
         'ingredients' => '',
         'price' => 10.50,
         'availability' => true,
-        'course' => 'Primi',
+        'course' => 'Primo',
     ],
     [
         'name' => 'EDAMAME',
@@ -1171,7 +1171,7 @@ return [
         'ingredients' => 'Fagioli di soia giapponese',
         'price' => 4.0,
         'availability' => false,
-        'course' => 'primo',
+        'course' => 'Primo',
     ],
     [
         'name' => 'SAKE',
@@ -1179,7 +1179,7 @@ return [
         'ingredients' => 'Nigiri di salmone',
         'price' => 2.50,
         'availability' => true,
-        'course' => 'primo',
+        'course' => 'Primo',
     ],
     [
         'name' => 'AMAEBI',
@@ -1187,7 +1187,7 @@ return [
         'ingredients' => 'Nigiri di gambero crudo',
         'price' => 3.0,
         'availability' => true,
-        'course' => 'primo',
+        'course' => 'Primo',
     ],
     [
         'name' => 'SAKE TEMAKI',
@@ -1195,7 +1195,7 @@ return [
         'ingredients' => 'Cono di alga con riso, salmone e avocado',
         'price' => 5.0,
         'availability' => true,
-        'course' => 'primo',
+        'course' => 'Primo',
     ],
     [
         'name' => 'NEGITORO TEMAKI',
@@ -1203,7 +1203,7 @@ return [
         'ingredients' => 'Cono di alga con riso, tonno, cipollotti e salsa piccante',
         'price' => 5.0,
         'availability' => false,
-        'course' => 'primo',
+        'course' => 'Primo',
     ],
 
     [
@@ -1212,7 +1212,7 @@ return [
         'ingredients' => 'Cono di alga con riso, tempura di gamberone e lattuga',
         'price' => 6.0,
         'availability' => true,
-        'course' => 'primo',
+        'course' => 'Primo',
     ],
     [
         'name' => 'NEGITORO TEMAKI',
@@ -1220,7 +1220,7 @@ return [
         'ingredients' => 'Cono di alga con riso, tonno, cipollotti e salsa piccante',
         'price' => 5.0,
         'availability' => false,
-        'course' => 'primo',
+        'course' => 'Primo',
     ],
     [
         'name' => 'URA PHILADELPHIA',
@@ -1228,7 +1228,7 @@ return [
         'ingredients' => 'Riso, philadelphia, gamberi* cotti e avocado',
         'price' => 8.0,
         'availability' => true,
-        'course' => 'primo',
+        'course' => 'Primo',
     ],
     [
         'name' => 'BROWN FUTOMAKI',
@@ -1236,7 +1236,7 @@ return [
         'ingredients' => 'Riso, frittata, gamberi* cotti, avocado e anguilla',
         'price' => 8.0,
         'availability' => false,
-        'course' => 'primo',
+        'course' => 'Primo',
     ],
     [
         'name' => 'TEMPURA URAMAKI',
@@ -1244,7 +1244,7 @@ return [
         'ingredients' => 'Riso, tempura di gamberoni e tobiko',
         'price' => 10.0,
         'availability' => true,
-        'course' => 'primo',
+        'course' => 'Primo',
     ],
     [
         'name' => 'INSALATA DI FINOCCHI E ARANCE',
@@ -1252,7 +1252,7 @@ return [
         'ingredients' => 'Finocchi, Arance, Pinoli, Uvetta, Sale, Olio di oliva extravergine di oliva, Aceto di mele, Semi di zucca',
         'price' => 9.0,
         'availability' => false,
-        'course' => 'secondo',
+        'course' => 'Secondo',
     ],
     [
         'name' => 'INSALATA DI POLLO SAPORITA',
@@ -1260,7 +1260,7 @@ return [
         'ingredients' => 'Petto di pollo in filetti, Olive verdi denocciolate, Cetriolini sottaceto, Peperoni rossi, Sedano bianco, Carote, Groviera, Sale fino ',
         'price' => 8.0,
         'availability' => true,
-        'course' => 'secondo',
+        'course' => 'Secondo',
     ],
     [
         'name' => 'INSALATA DI PUNTARELLE ALLA ROMANA',
@@ -1268,7 +1268,7 @@ return [
         'ingredients' => 'Puntarelle germogli di cicoria catalogna, Acciughe alici filetti sott\'olio, Olio extravergine d\'oliva, Aceto di vino bianco, Aglio, Sale fino, Pepe nero',
         'price' => 7.50,
         'availability' => true,
-        'course' => 'secondo',
+        'course' => 'Secondo',
     ],
     [
         'name' => 'CAESAR SALAD',
@@ -1276,7 +1276,7 @@ return [
         'ingredients' => 'Lattuga romana, Pane casereccio, Parmigiano Reggiano DOP, Aglio, Worcestershire sauce, Uova, Sale fino, Olio extravergine d\'oliva aromatizzato all\'aglio, Pepe nero, Olio extravergine d\'oliva, Aceto di vino bianco, Succo di limone',
         'price' => 6.50,
         'availability' => true,
-        'course' => 'secondo',
+        'course' => 'Secondo',
     ],
     [
         'name' => 'INSALATA DI CARCIOFI',
@@ -1284,7 +1284,7 @@ return [
         'ingredients' => 'Carciofi, Grana Padano DOP, Limone',
         'price' => 4.0,
         'availability' => false,
-        'course' => 'secondo',
+        'course' => 'Secondo',
     ],
     [
         'name' => 'INSALATA PANTESCA',
@@ -1292,7 +1292,7 @@ return [
         'ingredients' => 'Grana Padano DOP, Limone, Capperi, Cipolle, Pomodori',
         'price' => 9.0,
         'availability' => true,
-        'course' => 'secondo',
+        'course' => 'Secondo',
     ],
     [
         'name' => 'INSALATA DI ARANCE',
@@ -1300,7 +1300,7 @@ return [
         'ingredients' => 'Arance tarocco, Cipolle rosse, Olive nere, Basilico, Olio extravergine d\'oliva, Pepe nero, Sale fino',
         'price' => 8.0,
         'availability' => true,
-        'course' => 'secondo',
+        'course' => 'Secondo',
     ],
     [
         'name' => 'INSALATA DI PATATE AL VERDE',
@@ -1308,7 +1308,7 @@ return [
         'ingredients' => 'Patate , Basilico fresco , Prezzemolo fresco , Capperi sott\'aceto , Acciughe (alici) sott\'olio , Olio extravergine d\'oliva , Pepe nero , Origano essiccato',
         'price' => 8.0,
         'availability' => true,
-        'course' => 'secondo',
+        'course' => 'Secondo',
     ],
     [
         'name' => 'INSALATA NIZZARDA',
@@ -1316,7 +1316,7 @@ return [
         'ingredients' => 'Uova, Lattuga, Pomodorini ciliegino, Tonno sott\'olio, Olive nere denocciolate, Cipollotto fresco, Acciughe sott\'olio, Olio extravergine d\'oliva, Sale fino, Pepe nero',
         'price' => 9.50,
         'availability' => true,
-        'course' => 'secondo',
+        'course' => 'Secondo',
     ],
     [
         'name' => 'INSALATA DI FAGIOLINI',
@@ -1324,7 +1324,7 @@ return [
         'ingredients' => 'Fagiolini, Pomodorini, Scalogno, Olio di semi, Zucchero integrale di canna, Acqua, Mandorle in scaglie, Feta',
         'price' => 4.0,
         'availability' => false,
-        'course' => 'secondo',
+        'course' => 'Secondo',
     ],
     [
         'name' => 'CAPRESE',
@@ -1332,17 +1332,17 @@ return [
         'ingredients' => 'Mozzarella, pomodoro maturi, olio extravergine d\'oliva, basilico, sale',
         'price' => 3.50,
         'availability' => false,
-        'course' => 'secondo',
+        'course' => 'Secondo',
     ],
     [
         'name' => 'PENNE ALLA MEDITERRANEA',
-        'description' => 'La pasta alla mediterranea è un primo piatto semplice e saporito che racchiude in sé tutti i gusti e i sapori delle verdure e delle erbe mediterranee.',
+        'description' => 'La pasta alla mediterranea è un Primo piatto semplice e saporito che racchiude in sé tutti i gusti e i sapori delle verdure e delle erbe mediterranee.',
         'ingredients' => 'Certosa, pomodori freschi, olive nere snocciolate, olive verdi snocciolate, capperi, peperoni sottaceto agrodolci, basilico, erba cipollina
 olio extra vergine d\'oliva
 sale e pepe, aglio',
         'price' => 8.0,
         'availability' => true,
-        'course' => 'primo',
+        'course' => 'Primo',
     ],
     [
         'name' => 'PESCE SPADA ALLA PIZZAIOLA',
@@ -1350,7 +1350,7 @@ sale e pepe, aglio',
         'ingredients' => 'tranci di pesce spada, Mozzarella, pomodorini, aglio, capperi, olive nere',
         'price' => 4.0,
         'availability' => true,
-        'course' => 'secondo',
+        'course' => 'Secondo',
     ],
     [
         'name' => 'CREPES MEDITERRANEA',
@@ -1358,7 +1358,7 @@ sale e pepe, aglio',
         'ingredients' => 'melanzana, Mozzarella, capperi, olive, pomodoro',
         'price' => 7.50,
         'availability' => true,
-        'course' => 'primo',
+        'course' => 'Primo',
     ],
     [
         'name' => 'SNACK DI PARMIGIANO REGGIANO',
@@ -1366,7 +1366,7 @@ sale e pepe, aglio',
         'ingredients' => 'Parmigiano reggiano',
         'price' => 1.0,
         'availability' => true,
-        'course' => 'secondo',
+        'course' => 'Secondo',
     ],
     [
         'name' => 'ARACHIDI',
@@ -1374,7 +1374,7 @@ sale e pepe, aglio',
         'ingredients' => 'Arachidi',
         'price' => 2.0,
         'availability' => false,
-        'course' => 'secondo',
+        'course' => 'Secondo',
     ],
     [
         'name' => 'CHIPS GUSTO PIZZA',
@@ -1382,7 +1382,7 @@ sale e pepe, aglio',
         'ingredients' => 'Chips',
         'price' => 1.20,
         'availability' => true,
-        'course' => 'secondo',
+        'course' => 'Secondo',
     ],
     [
         'name' => 'TARALLI',
@@ -1390,7 +1390,7 @@ sale e pepe, aglio',
         'ingredients' => 'Taralli',
         'price' => 2.0,
         'availability' => true,
-        'course' => 'secondo',
+        'course' => 'Secondo',
     ],
     [
         'name' => 'POP CORN',
@@ -1398,7 +1398,7 @@ sale e pepe, aglio',
         'ingredients' => 'Pop Corn',
         'price' => 1.30,
         'availability' => true,
-        'course' => 'secondo',
+        'course' => 'Secondo',
     ],
     [
         'name' => 'SNACK DI PARMIGIANO REGGIANO',
@@ -1406,7 +1406,7 @@ sale e pepe, aglio',
         'ingredients' => 'Parmigiano reggiano',
         'price' => 2.0,
         'availability' => false,
-        'course' => 'secondo',
+        'course' => 'Secondo',
     ],
     [
         'name' => 'ARACHIDI',
@@ -1414,7 +1414,7 @@ sale e pepe, aglio',
         'ingredients' => 'Arachidi',
         'price' => 2.8,
         'availability' => true,
-        'course' => 'secondo',
+        'course' => 'Secondo',
     ],
     [
         'name' => 'CHIPS GUSTO PIZZA',
@@ -1422,7 +1422,7 @@ sale e pepe, aglio',
         'ingredients' => 'Chips',
         'price' => 3.0,
         'availability' => true,
-        'course' => 'secondo',
+        'course' => 'Secondo',
     ],
     [
         'name' => 'TARALLI',
@@ -1430,7 +1430,7 @@ sale e pepe, aglio',
         'ingredients' => 'Taralli',
         'price' => 1.6,
         'availability' => false,
-        'course' => 'secondo',
+        'course' => 'Secondo',
     ],
     [
         'name' => 'POP CORN',
@@ -1438,6 +1438,6 @@ sale e pepe, aglio',
         'ingredients' => 'Pop Corn',
         'price' => 1.10,
         'availability' => true,
-        'course' => 'secondo',
+        'course' => 'Secondo',
     ],
 ];
