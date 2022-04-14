@@ -52,7 +52,7 @@ class DishController extends Controller
         'Pizza',
         'Frutta',
         'Dolce',
-        'Bibite',
+        'Bibita',
     ];
 
     /**
