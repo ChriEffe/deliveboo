@@ -7,7 +7,7 @@
 ## Setup
 
 -   Duplicate .env.example and rename it .env. <br>
--   Create database and insert info in .env
+-   Create database and insert infos in .env
 
 ```
 composer install
