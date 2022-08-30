@@ -2,8 +2,11 @@
 
 use Illuminate\Support\Str;
 
+<<<<<<< HEAD
 $DATABASE_URL = parse_url('DATABASE_URL');
 
+=======
+>>>>>>> parent of ce2d2f9 (commit)
 return [
 
     /*
@@ -17,7 +20,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'pgsql'),
+    'default' => env('DB_CONNECTION', 'mysql'),
 
     /*
     |--------------------------------------------------------------------------
@@ -68,11 +71,19 @@ return [
         'pgsql' => [
             'driver' => 'pgsql',
             'url' => env('DATABASE_URL'),
+<<<<<<< HEAD
             'host' => isset($DATABASE_URL['host']) ? $DATABASE_URL['host'] : null,
             'port' => isset($DATABASE_URL['port']) ? $DATABASE_URL['port'] : null,
             'database' => isset($DATABASE_URL['path']) ? ltrim($DATABASE_URL['path'], '/') : null,
             'username' => isset($DATABASE_URL['user']) ? $DATABASE_URL['user'] : null,
             'password' => isset($DATABASE_URL['pass']) ? $DATABASE_URL['pass'] : null,
+=======
+            'host' => env('DB_HOST', '127.0.0.1'),
+            'port' => env('DB_PORT', '5432'),
+            'database' => env('DB_DATABASE', 'forge'),
+            'username' => env('DB_USERNAME', 'forge'),
+            'password' => env('DB_PASSWORD', ''),
+>>>>>>> parent of ce2d2f9 (commit)
             'charset' => 'utf8',
             'prefix' => '',
             'prefix_indexes' => true,
@@ -125,7 +136,7 @@ return [
 
         'options' => [
             'cluster' => env('REDIS_CLUSTER', 'redis'),
-            'prefix' => env('REDIS_PREFIX', Str::slug(env('APP_NAME', 'laravel'), '_') . '_database_'),
+            'prefix' => env('REDIS_PREFIX', Str::slug(env('APP_NAME', 'laravel'), '_').'_database_'),
         ],
 
         'default' => [
