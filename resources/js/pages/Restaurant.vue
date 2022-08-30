@@ -8,50 +8,26 @@
             </div>
             <div class="row">
                 <div class="col-9 container-card-dish-restaurant">
-                    <div
-                        v-for="(dish, index) in dishes"
-                        :key="index"
-                        class="col d-flex flex-start flex-smartphone"
-                    >
-                        <div
-                            class="card card-dish-restaurant"
-                            style="width: 18rem"
-                        >
+                    <div v-for="(dish, index) in dishes" :key="index" class="col d-flex flex-start flex-smartphone">
+                        <div class="card card-dish-restaurant" style="width: 18rem;">
                             <div class="card-body body-card-dish">
-                                <h5 class="card-title title-dish-card">
-                                    {{ dish.name }}
-                                </h5>
+                                <h5 class="card-title title-dish-card">{{ dish.name }}</h5>
                                 <div class="container-img-description">
-                                    <img
-                                        :src="'/storage/' + dish.image"
-                                        class="card-img-top"
-                                        alt="image"
-                                    />
-                                    <p
-                                        v-if="dish.ingredients"
-                                        class="info-image"
-                                    >
-                                        i
-                                    </p>
-                                    <p
-                                        v-if="dish.ingredients"
-                                        class="description-dish"
-                                    >
-                                        {{ dish.ingredients }}
-                                    </p>
+                                    <img :src="'/storage/'+dish.image" class="card-img-top" alt="image">
+                                    <p v-if="dish.ingredients" class="info-image">i</p>
+                                    <p v-if="dish.ingredients" class="description-dish">{{dish.ingredients}}</p>
                                 </div>
                                 <div class="container-price-plus">
-                                    <p class="card-text mb-0">
-                                        &euro; {{ dish.price.toFixed(2) }}
-                                    </p>
+                                    <p class="card-text mb-0">&euro; {{ dish.price.toFixed(2) }}</p>
                                     <button
-                                        v-if="dish.availability"
-                                        class="btn btn-primary button-plus-dish"
-                                        @click="addItem(dish)"
-                                    >
+                                    v-if="dish.availability"
+                                    class="btn btn-primary button-plus-dish"
+                                    @click="addItem(dish)">
                                         <i class="fas fa-plus"></i>
                                     </button>
-                                    <div v-else>Non disponibile</div>
+                                    <div v-else>
+                                        Non disponibile
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -155,12 +131,9 @@ export default {
     created() {
         console.log(this.$store.state);
 
-        this.getUser(
-            "http://pure-falls-97096.herokuapp.com/api/v1/restaurants/" +
-                this.slug
-        );
+        this.getUser("http://127.0.0.1:8000/api/v1/restaurants/" + this.slug);
         localStorage.setItem("location", JSON.stringify(window.location));
-
+        
         // let location_deserialized = JSON.parse(localStorage.getItem("location"));
         // console.log(location_deserialized.href)
         // if (this.$store.state['location'].href) {
@@ -177,9 +150,9 @@ export default {
             this.cart = myObj_deserialized;
         }
 
-        $(window).bind("beforeunload", function () {
+        $(window).bind('beforeunload', function(){
             if (JSON.parse(localStorage.getItem("cart"))) {
-                return "alert";
+                return 'alert';
             }
         });
 
@@ -192,9 +165,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.col-restaurant-name-top {
+.col-restaurant-name-top{
     padding: 0;
-    .restaurant-name-top {
+    .restaurant-name-top{
         color: white;
         text-shadow: 3px 3px 10px #6f6f6f4e;
         padding: 2rem 0 0.5rem 1rem;
@@ -203,17 +176,17 @@ export default {
         width: 100%;
     }
 }
-.container-card-dish-restaurant {
+.container-card-dish-restaurant{
     max-width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    .card-dish-restaurant {
+    .card-dish-restaurant{
         border-radius: 20px !important;
         margin: 1rem;
-        .body-card-dish {
+        .body-card-dish{
             padding: 0;
-            .title-dish-card {
+            .title-dish-card{
                 text-align: center;
                 align-items: center;
                 color: black;
@@ -221,17 +194,17 @@ export default {
                 border-radius: 20px 20px 5px 5px !important;
                 min-height: 4rem;
             }
-            .container-img-description {
+            .container-img-description{
                 position: relative;
                 display: flex;
                 justify-content: center;
                 min-height: 15rem;
                 overflow: hidden;
-                img {
+                img{
                     height: 100%;
-                    transition: transform 0.2s;
+                    transition: transform .2s;
                 }
-                .info-image {
+                .info-image{
                     cursor: pointer;
                     color: white;
                     background-color: gray;
@@ -241,7 +214,7 @@ export default {
                     padding: 0 0.6rem;
                     border-radius: 25px;
                 }
-                .description-dish {
+                .description-dish{
                     display: none;
                     height: 100%;
                     width: 100%;
@@ -255,33 +228,33 @@ export default {
                     background-color: rgba(128, 128, 128, 0.8);
                     border-radius: 20px !important;
                 }
-                &:hover {
-                    img {
+                &:hover{
+                    img{
                         transform: scale(1.2);
                     }
                 }
-                &:active {
-                    .description-dish {
+                &:active{
+                    .description-dish{
                         display: block !important;
                         background-color: rgba(128, 128, 128, 0.8);
                     }
-                    .info-image {
+                    .info-image{
                         display: none;
                     }
                 }
             }
-            .container-price-plus {
+            .container-price-plus{
                 display: flex;
                 justify-content: space-between;
                 align-items: center !important;
                 padding: 1rem;
-                .button-plus-dish {
+                .button-plus-dish{
                     color: black;
                     background-color: rgb(56, 193, 114, 0.2);
                     color: #38c172;
                     border-radius: 20px;
                     border: none;
-                    &:hover {
+                    &:hover{
                         background-color: #38c172;
                         color: white;
                     }
@@ -292,43 +265,43 @@ export default {
 }
 
 @media all and (max-width: 885px) {
-    .container-card-dish-restaurant {
+    .container-card-dish-restaurant{
         width: 60%;
         .card-dish-restaurant {
             width: 12rem !important;
-            .title-dish-card {
-                min-height: 6rem !important;
-            }
+            .title-dish-card{
+                    min-height: 6rem !important;
+                }
         }
     }
 }
 
 @media all and (max-width: 786px) {
-    .container-card-dish-restaurant {
+    .container-card-dish-restaurant{
         width: 70%;
         .card-dish-restaurant {
             width: 12rem !important;
-            .title-dish-card {
-                min-height: 6rem !important;
-            }
+            .title-dish-card{
+                    min-height: 6rem !important;
+                }
         }
     }
 }
 
 @media all and (max-width: 674px) {
-    .container-card-dish-restaurant {
+    .container-card-dish-restaurant{
         width: 100%;
         .card-dish-restaurant {
             width: 15rem !important;
-            .title-dish-card {
-                min-height: 6rem !important;
-            }
+            .title-dish-card{
+                    min-height: 6rem !important;
+                }
         }
     }
 }
 
 @media all and (max-width: 567px) {
-    .flex-smartphone {
+    .flex-smartphone{
         justify-content: center !important;
     }
 }
