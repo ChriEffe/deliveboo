@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'https://pure-falls-97096.herokuapp.com/'),
+    'url' => env('APP_URL', 'http://pure-falls-97096.herokuapp.com/'),
 
     'asset_url' => env('ASSET_URL', null),
 
