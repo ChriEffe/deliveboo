@@ -159,7 +159,7 @@ export default {
     data() {
         return {
             loading: false,
-            url: "http://pure-falls-97096.herokuappppp.com/api/v1/",
+            url: "http://pure-falls-97096.herokuapp.com/api/v1/",
             restaurants: null,
             categories: [],
             pages: {
