@@ -4,7 +4,6 @@ namespace App\Providers;
 
 use Braintree\Gateway;
 use Illuminate\Support\ServiceProvider;
-use Illuminate\Pagination\Paginator;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -25,11 +24,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        Paginator::useBootstrap();
-
         $this->app->singleton(Gateway::class, function($app){
             return new Gateway([
-
+                
                 'environment' => 'sandbox',
                 'merchantId' => '4sjx493rm6vt8q2c',
                 'publicKey' => '539phtdsx375fjwc',
