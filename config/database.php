@@ -4,12 +4,15 @@ use Illuminate\Support\Str;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 $DATABASE_URL = parse_url('DATABASE_URL');
 
 =======
 >>>>>>> parent of ce2d2f9 (commit)
 =======
 >>>>>>> 7aa80d2a128e1001c62eae2cf75e52eaa3377b68
+=======
+>>>>>>> parent of 4a311c6 (commit)
 return [
 
     /*
@@ -76,6 +79,7 @@ return [
             'url' => env('DATABASE_URL'),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'host' => isset($DATABASE_URL['host']) ? $DATABASE_URL['host'] : null,
             'port' => isset($DATABASE_URL['port']) ? $DATABASE_URL['port'] : null,
             'database' => isset($DATABASE_URL['path']) ? ltrim($DATABASE_URL['path'], '/') : null,
@@ -84,15 +88,20 @@ return [
 =======
 =======
 >>>>>>> 7aa80d2a128e1001c62eae2cf75e52eaa3377b68
+=======
+>>>>>>> parent of 4a311c6 (commit)
             'host' => env('DB_HOST', '127.0.0.1'),
             'port' => env('DB_PORT', '5432'),
             'database' => env('DB_DATABASE', 'forge'),
             'username' => env('DB_USERNAME', 'forge'),
             'password' => env('DB_PASSWORD', ''),
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of ce2d2f9 (commit)
 =======
 >>>>>>> 7aa80d2a128e1001c62eae2cf75e52eaa3377b68
+=======
+>>>>>>> parent of 4a311c6 (commit)
             'charset' => 'utf8',
             'prefix' => '',
             'prefix_indexes' => true,
